@@ -1,0 +1,42 @@
+{
+  "name": "vscode-kubernetes-helm-extension-pack",
+    "displayName": "Kubernetes and Helm Extension Pack",
+    "description": "Collection of VSCode Extensions for Kubernetes and Helm.",
+    "icon": "images/icon.png",
+    "version": "1.0.1",
+    "license": "SEE LICENSE IN LICENSE",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "extensionPack": [
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "sandipchitale.vscode-kubernetes-edit-kubeconfig",
+        "sandipchitale.kubernetes-file-system-explorer",
+        "sandipchitale.kubernetes-no-load-on-select",
+        "sandipchitale.vscode-kubernetes-commander-ng",
+        "sandipchitale.vscode-multipane-explorer",
+        "sandipchitale.vscode-kubernetes-api-resources",
+        "sandipchitale.vscode-kubernetes-logs",
+        "sandipchitale.vscode-kubernetes-helm-extras",
+        "sandipchitale.vscode-kubernetes-dashboard",
+        "ms-kubernetes-tools.kind-vscode",
+        "ms-azuretools.vscode-docker",
+        "sandipchitale.docker-dive",
+        "sandipchitale.docker-nsenter",
+        "sandipchitale.vscode-kubernetes-kubectl-ripper"
+    ],
+    "categories": [
+        "Extension Packs"
+    ],
+    "publisher": "sandipchitale",
+    "author": {
+        "name": "Sandip Chitale"
+    },
+    "maintainers": [
+        "Sandip Chitale <sandipchitale@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sandipchitale/vscode-kubernetes-helm-extension-pack"
+    }
+}
